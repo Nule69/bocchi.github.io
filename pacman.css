@@ -33,8 +33,9 @@ html  {
 }
 body { 
 	position: relative;
-	top: -60px;
+	top : -120px;
 }
+
 
 #score, #highscore  { 
 	position: absolute;
@@ -205,11 +206,11 @@ span.combo, span.fruits {
 	background-image: url('move-up-big.png');
 }
 #control-down-big { 
-	bottom: -260px;
+	bottom: -190px;
 	left: 0px;
 	right: 0px;
 	width: 125px;
-	height: 175px;
+	height: 80px;
 	background-image: url('move-down-big.png');
 }
 #control-left-big { 
@@ -457,7 +458,5 @@ body { overflow-x: hidden; }
 #panel, #home { zoom: 1 !important; transform: scale(var(--game-scale, 1)); transform-origin: top left; }
 #board { touch-action: none; -webkit-user-select: none; user-select: none; }
 @media (max-width: 700px), (max-height: 700px) {
-  #control-up-big, #control-down-big, #control-left-big, #control-right-big { display: none !important; }
-  #control { display: none !important; }
   html, body { overflow: hidden; }
 }
